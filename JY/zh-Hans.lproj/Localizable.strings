@@ -9,3 +9,8 @@
 HomeFContent = "极友圈";
 HomeSContent = "活动邀请";
 HomeTContent = "有趣话题";
+Home         = "首页";
+JY           = "极友";
+Release      = "发布";
+Message      = "消息";
+Me           = "我的";

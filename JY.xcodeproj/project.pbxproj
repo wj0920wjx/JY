@@ -199,6 +199,7 @@
 		A07AF91420EDEA3600C645BC /* JYHomeModelRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYHomeModelRequest.m; sourceTree = "<group>"; };
 		A07AF91620EDEA5A00C645BC /* JYHomeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYHomeModel.h; sourceTree = "<group>"; };
 		A07AF91720EDEA5A00C645BC /* JYHomeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYHomeModel.m; sourceTree = "<group>"; };
+		A07AF91C20F3287800C645BC /* JYAppVodeo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYAppVodeo.h; sourceTree = "<group>"; };
 		A0D5B43420D352DE009FCAF6 /* JYPch.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYPch.pch; sourceTree = "<group>"; };
 		A0D5B43520D3534C009FCAF6 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		A0D5B43620D3534C009FCAF6 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
@@ -765,6 +766,7 @@
 			isa = PBXGroup;
 			children = (
 				A07AF90220EB42F000C645BC /* UtilsMacro.h */,
+				A07AF91C20F3287800C645BC /* JYAppVodeo.h */,
 			);
 			path = Macro;
 			sourceTree = "<group>";
@@ -1269,6 +1271,7 @@
 			baseConfigurationReference = C9AF8AB6171DF4943ADA3D9F /* Pods-JY.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M7TG992W7J;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1286,6 +1289,7 @@
 			baseConfigurationReference = 58CD79701AF0B82E82CCBB94 /* Pods-JY.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M7TG992W7J;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;

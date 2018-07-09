@@ -9,3 +9,8 @@
 HomeFContent = "LimitDating";
 HomeSContent = "ActivitiesInvite";
 HomeTContent = "InterestingTopic";
+Home         = "HomePage";
+JY           = "Jy";
+Release      = "Release";
+Message      = "Message";
+Me           = "Me";
