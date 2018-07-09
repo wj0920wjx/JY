@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  JY
+
+  Created by 王杰 on 2018/7/3.
+  Copyright © 2018年 极限交友. All rights reserved.
+*/
+
+HomeFContent = "极友圈";
+HomeSContent = "活动邀请";
+HomeTContent = "有趣话题";

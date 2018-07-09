@@ -6,17 +6,30 @@
 //  Copyright © 2018年 极限交友. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "JYAppDelegate.h"
+#import "JYTabViewController.h"
 
-@interface AppDelegate ()
+@interface JYAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation JYAppDelegate
 
+- (UIWindow *)window
+{
+    if(!_window)
+    {
+        _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+        _window.backgroundColor = [UIColor RandomColor];
+        [_window makeKeyAndVisible];
+    }
+    return _window;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window.rootViewController = [[JYTabViewController alloc] init];
+
     return YES;
 }
 
