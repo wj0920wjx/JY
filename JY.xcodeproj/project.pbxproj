@@ -46,7 +46,6 @@
 		A0161EFF20D8EFE200003E4B /* UIColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = A0161EFE20D8EFE200003E4B /* UIColor+Random.m */; };
 		A0533D5820D236A200CF4D51 /* JYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0533D5720D236A200CF4D51 /* JYAppDelegate.m */; };
 		A0533D5E20D236A200CF4D51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0533D5C20D236A200CF4D51 /* Main.storyboard */; };
-		A0533D6020D236A200CF4D51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0533D5F20D236A200CF4D51 /* Assets.xcassets */; };
 		A0533D6320D236A200CF4D51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0533D6120D236A200CF4D51 /* LaunchScreen.storyboard */; };
 		A0533D6620D236A200CF4D51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0533D6520D236A200CF4D51 /* main.m */; };
 		A0533D7020D236A200CF4D51 /* JYTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0533D6F20D236A200CF4D51 /* JYTests.m */; };
@@ -64,6 +63,7 @@
 		A07AF91820EDEA5A00C645BC /* JYHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A07AF91720EDEA5A00C645BC /* JYHomeModel.m */; };
 		A07AF91A20EF5F8500C645BC /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D5B43620D3534C009FCAF6 /* HomeViewController.m */; };
 		A07AF92020F35D1C00C645BC /* JYShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = A07AF91F20F35D1C00C645BC /* JYShowView.m */; };
+		A07AF92220F5F0C500C645BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A07AF92120F5F0C500C645BC /* Assets.xcassets */; };
 		A0D5B43720D3534C009FCAF6 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D5B43620D3534C009FCAF6 /* HomeViewController.m */; };
 		F624CAA38F3F9064F4060746 /* Pods_JY.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF5FBF6ABE346CA498A06618 /* Pods_JY.framework */; };
 /* End PBXBuildFile section */
@@ -165,7 +165,6 @@
 		A0533D5620D236A200CF4D51 /* JYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYAppDelegate.h; sourceTree = "<group>"; };
 		A0533D5720D236A200CF4D51 /* JYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYAppDelegate.m; sourceTree = "<group>"; };
 		A0533D5D20D236A200CF4D51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A0533D5F20D236A200CF4D51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0533D6220D236A200CF4D51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0533D6420D236A200CF4D51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0533D6520D236A200CF4D51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -203,6 +202,7 @@
 		A07AF91C20F3287800C645BC /* JYAppVodeo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYAppVodeo.h; sourceTree = "<group>"; };
 		A07AF91E20F35D1C00C645BC /* JYShowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYShowView.h; sourceTree = "<group>"; };
 		A07AF91F20F35D1C00C645BC /* JYShowView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYShowView.m; sourceTree = "<group>"; };
+		A07AF92120F5F0C500C645BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0D5B43420D352DE009FCAF6 /* JYPch.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYPch.pch; sourceTree = "<group>"; };
 		A0D5B43520D3534C009FCAF6 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		A0D5B43620D3534C009FCAF6 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = "../../车置宝/共享文件包/共享项目/MVVM+RAC/MVVM+RAC/Class/Sections/WJSections/HomePage/ViewControllers/HomeViewController.m"; sourceTree = SOURCE_ROOT; };
@@ -484,12 +484,12 @@
 		A0533D5520D236A200CF4D51 /* JY */ = {
 			isa = PBXGroup;
 			children = (
+				A07AF92120F5F0C500C645BC /* Assets.xcassets */,
 				A049E35F20D2380600C26E02 /* README.md */,
 				A0533D9F20D2375000CF4D51 /* AppDelegate */,
 				A0533D8820D2374500CF4D51 /* Resource */,
 				A0533D8D20D2374500CF4D51 /* Class */,
 				A0533D5C20D236A200CF4D51 /* Main.storyboard */,
-				A0533D5F20D236A200CF4D51 /* Assets.xcassets */,
 				A0533D6120D236A200CF4D51 /* LaunchScreen.storyboard */,
 				A0533D6420D236A200CF4D51 /* Info.plist */,
 				A0533D6520D236A200CF4D51 /* main.m */,
@@ -945,8 +945,8 @@
 				A07AF8F720EB1BBB00C645BC /* Localizable.strings in Resources */,
 				A07AF8FE20EB1C0200C645BC /* InfoPlist.strings in Resources */,
 				A0533D6320D236A200CF4D51 /* LaunchScreen.storyboard in Resources */,
-				A0533D6020D236A200CF4D51 /* Assets.xcassets in Resources */,
 				A0533D5E20D236A200CF4D51 /* Main.storyboard in Resources */,
+				A07AF92220F5F0C500C645BC /* Assets.xcassets in Resources */,
 				A07AF8F220E6035E00C645BC /* JYHomeTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
