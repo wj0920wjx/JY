@@ -17,6 +17,11 @@ pod 'YYImage'
 #用于适配
 pod 'Masonry'
 
+# 图片加载
+pod 'SDWebImage'
+#字典转模型
+pod 'MJExtension'
+
 # 蒙版
 pod 'MBProgressHUD'
 
@@ -45,6 +50,9 @@ pod 'MOFSPickerManager'
 
 # 列表视频
 pod 'ZFPlayer'
+pod 'ZFPlayer/ControlView'
+pod 'ZFPlayer/AVPlayer'
+
 pod 'ZFDownload'
 
 pod 'ZJScrollPageView'
