@@ -61,4 +61,12 @@ pod 'ZJScrollPageView'
 # 泡泡uibutton
 pod 'DWBubbleMenuButton'
 
+# 短视频
+pod 'Qiniu'
+pod 'PLPlayerKit'
+#pod 'PLShortVideoKit'
+
+#网易云IM即时通讯
+pod 'NIMSDK'
+
 end

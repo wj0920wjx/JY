@@ -8,6 +8,11 @@
 
 #import "JYAppDelegate.h"
 #import "JYTabViewController.h"
+#import <NIMSDK/NIMSDK.h>
+
+#define NIMAPPKEY @"067962725ba522e7ecb405a63f3a9292"
+#define JYPUSHDEV @"JYPushdev"
+#define JYPUSHDIS @"JYPushdis"
 
 @interface JYAppDelegate ()
 
@@ -29,7 +34,21 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     self.window.rootViewController = [[JYTabViewController alloc] init];
-
+    
+    //推荐在程序启动的时候初始化 NIMSDK
+    NSString *appKey        = NIMAPPKEY;
+    NIMSDKOption *option    = [NIMSDKOption optionWithAppKey:appKey];
+    
+#ifdef DEBUG
+    option.apnsCername      = JYPUSHDEV;
+#else
+    option.apnsCername      = JYPUSHDIS;
+#endif
+    
+    option.pkCername        = nil;
+    
+    [[NIMSDK sharedSDK] registerWithOption:option];
+    
     return YES;
 }
 

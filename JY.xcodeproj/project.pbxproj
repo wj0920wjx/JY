@@ -43,12 +43,12 @@
 		A0161EF520D8EA6B00003E4B /* LMJWordItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A0161EF120D8EA6B00003E4B /* LMJWordItem.m */; };
 		A0161EF820D8EA9200003E4B /* LMJSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0161EF620D8EA9200003E4B /* LMJSettingCell.m */; };
 		A0161EFC20D8EE7800003E4B /* JYTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0161EFB20D8EE7800003E4B /* JYTabViewController.m */; };
-		A0161EFF20D8EFE200003E4B /* UIColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = A0161EFE20D8EFE200003E4B /* UIColor+Random.m */; };
 		A0249FD320F740360023CE20 /* ZFTableData.m in Sources */ = {isa = PBXBuildFile; fileRef = A0249FD120F740360023CE20 /* ZFTableData.m */; };
 		A0249FD420F740360023CE20 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = A0249FD220F740360023CE20 /* data.json */; };
 		A0249FD920F740610023CE20 /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = A0249FD520F740600023CE20 /* NSString+Size.m */; };
 		A0249FDA20F740610023CE20 /* ZFTableViewCellLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A0249FD620F740600023CE20 /* ZFTableViewCellLayout.m */; };
 		A0249FDD20F740990023CE20 /* ZFTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0249FDC20F740990023CE20 /* ZFTableViewCell.m */; };
+		A0249FE920FD89A80023CE20 /* UIColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = A0249FE820FD89A80023CE20 /* UIColor+Random.m */; };
 		A0533D5820D236A200CF4D51 /* JYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0533D5720D236A200CF4D51 /* JYAppDelegate.m */; };
 		A0533D5E20D236A200CF4D51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0533D5C20D236A200CF4D51 /* Main.storyboard */; };
 		A0533D6320D236A200CF4D51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0533D6120D236A200CF4D51 /* LaunchScreen.storyboard */; };
@@ -168,8 +168,6 @@
 		A0161EF720D8EA9200003E4B /* LMJSettingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJSettingCell.h; sourceTree = "<group>"; };
 		A0161EFA20D8EE7800003E4B /* JYTabViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYTabViewController.h; sourceTree = "<group>"; };
 		A0161EFB20D8EE7800003E4B /* JYTabViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYTabViewController.m; sourceTree = "<group>"; };
-		A0161EFD20D8EFE200003E4B /* UIColor+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Random.h"; path = "../../../../../../../待研究项目/iOSProject-master/iOSProject/iOSProject/Classes/Category/UIColor+Random.h"; sourceTree = "<group>"; };
-		A0161EFE20D8EFE200003E4B /* UIColor+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Random.m"; path = "../../../../../../../待研究项目/iOSProject-master/iOSProject/iOSProject/Classes/Category/UIColor+Random.m"; sourceTree = "<group>"; };
 		A0249FD020F740360023CE20 /* ZFTableData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFTableData.h; sourceTree = "<group>"; };
 		A0249FD120F740360023CE20 /* ZFTableData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFTableData.m; sourceTree = "<group>"; };
 		A0249FD220F740360023CE20 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
@@ -179,6 +177,9 @@
 		A0249FD820F740610023CE20 /* ZFTableViewCellLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFTableViewCellLayout.h; sourceTree = "<group>"; };
 		A0249FDB20F740990023CE20 /* ZFTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFTableViewCell.h; sourceTree = "<group>"; };
 		A0249FDC20F740990023CE20 /* ZFTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFTableViewCell.m; sourceTree = "<group>"; };
+		A0249FE720FD89A80023CE20 /* UIColor+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Random.h"; sourceTree = "<group>"; };
+		A0249FE820FD89A80023CE20 /* UIColor+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Random.m"; sourceTree = "<group>"; };
+		A0249FEA210182F90023CE20 /* JY.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JY.entitlements; sourceTree = "<group>"; };
 		A049E35F20D2380600C26E02 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A0533D5320D236A200CF4D51 /* JY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0533D5620D236A200CF4D51 /* JYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYAppDelegate.h; sourceTree = "<group>"; };
@@ -511,6 +512,7 @@
 		A0533D5520D236A200CF4D51 /* JY */ = {
 			isa = PBXGroup;
 			children = (
+				A0249FEA210182F90023CE20 /* JY.entitlements */,
 				A07AF92120F5F0C500C645BC /* Assets.xcassets */,
 				A049E35F20D2380600C26E02 /* README.md */,
 				A0533D9F20D2375000CF4D51 /* AppDelegate */,
@@ -758,8 +760,8 @@
 		A0533D9B20D2374500CF4D51 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				A0161EFD20D8EFE200003E4B /* UIColor+Random.h */,
-				A0161EFE20D8EFE200003E4B /* UIColor+Random.m */,
+				A0249FE720FD89A80023CE20 /* UIColor+Random.h */,
+				A0249FE820FD89A80023CE20 /* UIColor+Random.m */,
 				A0161E8320D8DE6700003E4B /* NSDecimalNumber+Addtion.h */,
 				A0161E8820D8DE6700003E4B /* NSDecimalNumber+Addtion.m */,
 				A0161E8920D8DE6800003E4B /* NullSafe.m */,
@@ -889,6 +891,7 @@
 				A0533D5020D236A200CF4D51 /* Frameworks */,
 				A0533D5120D236A200CF4D51 /* Resources */,
 				62514ABB90C73C71ACCFCEB3 /* [CP] Embed Pods Frameworks */,
+				62BBFF4845CACF46057EAD0B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -946,7 +949,12 @@
 				TargetAttributes = {
 					A0533D5220D236A200CF4D51 = {
 						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					A0533D6A20D236A200CF4D51 = {
 						CreatedOnToolsVersion = 9.0;
@@ -1028,12 +1036,18 @@
 				"${BUILT_PRODUCTS_DIR}/DWBubbleMenuButton/DWBubbleMenuButton.framework",
 				"${BUILT_PRODUCTS_DIR}/FCUUID/FCUUID.framework",
 				"${BUILT_PRODUCTS_DIR}/FDFullscreenPopGesture/FDFullscreenPopGesture.framework",
+				"${BUILT_PRODUCTS_DIR}/HappyDNS/HappyDNS.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/MOFSPickerManager/MOFSPickerManager.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${PODS_ROOT}/NIMSDK/NIMSDK/NIMSDK.framework",
+				"${PODS_ROOT}/NIMSDK/NIMAVChat/NIMAVChat.framework",
+				"${PODS_ROOT}/NIMSDK/NIMAVChat/NVS.framework",
+				"${PODS_ROOT}/PLPlayerKit/Pod/Library/PLPlayerKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Qiniu/Qiniu.framework",
 				"${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework",
 				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
@@ -1053,12 +1067,18 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DWBubbleMenuButton.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FCUUID.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FDFullscreenPopGesture.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HappyDNS.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MOFSPickerManager.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NIMSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NIMAVChat.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PLPlayerKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Qiniu.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
@@ -1073,6 +1093,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JY/Pods-JY-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62BBFF4845CACF46057EAD0B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JY/Pods-JY-resources.sh",
+				"${PODS_ROOT}/NIMSDK/NIMAVChat/Resources/NMCVideoFilter.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NMCVideoFilter.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JY/Pods-JY-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		787222CAA4CDA3CA1D8AF72D /* [CP] Check Pods Manifest.lock */ = {
@@ -1123,7 +1161,6 @@
 				A0161EA620D8E20E00003E4B /* ReleaseViewController.m in Sources */,
 				A0161EA920D8E25300003E4B /* MeViewController.m in Sources */,
 				A0161ECF20D8E57100003E4B /* LMJWebViewController.m in Sources */,
-				A0161EFF20D8EFE200003E4B /* UIColor+Random.m in Sources */,
 				A0161ECC20D8E57100003E4B /* LMJRefreshCollectionViewController.m in Sources */,
 				A0249FD320F740360023CE20 /* ZFTableData.m in Sources */,
 				A0161EAF20D8E2B900003E4B /* JYViewController.m in Sources */,
@@ -1151,6 +1188,7 @@
 				A0161EC920D8E57100003E4B /* LMJStaticTableViewController.m in Sources */,
 				A07AF92A20F6F40D00C645BC /* ZFVideoModel.m in Sources */,
 				A07AF8F120E6035E00C645BC /* JYHomeTableViewCell.m in Sources */,
+				A0249FE920FD89A80023CE20 /* UIColor+Random.m in Sources */,
 				A0161ED620D8E6C200003E4B /* LMJElementsFlowLayout.m in Sources */,
 				A0533D5820D236A200CF4D51 /* JYAppDelegate.m in Sources */,
 				A0D5B43720D3534C009FCAF6 /* HomeViewController.m in Sources */,
@@ -1262,7 +1300,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: NaiXu Wei (B657XYFZ3V)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1284,6 +1322,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "99fcab4b-d818-4b95-aae5-52152041494e";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -1318,7 +1357,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Cangnan Ante Security Technology Co., Ltd. (85UCF5HL4V)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -1333,6 +1372,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "c50bc506-47fd-4083-99ed-3b5f085e92fa";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1344,14 +1384,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = NO;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M7TG992W7J;
+				CODE_SIGN_ENTITLEMENTS = JY/JY.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 85UCF5HL4V;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "/Users/wangjie/Desktop/车置宝/共享文件包/共享项目/MVVM+RAC/MVVM+RAC/Class/General/JYPch.pch";
 				INFOPLIST_FILE = JY/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jooy.JY;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "99fcab4b-d818-4b95-aae5-52152041494e";
+				PROVISIONING_PROFILE_SPECIFIER = com.jooy.JY;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1362,14 +1405,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = NO;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M7TG992W7J;
+				CODE_SIGN_ENTITLEMENTS = JY/JY.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 85UCF5HL4V;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "/Users/wangjie/Desktop/车置宝/共享文件包/共享项目/MVVM+RAC/MVVM+RAC/Class/General/JYPch.pch";
 				INFOPLIST_FILE = JY/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jooy.JY;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c50bc506-47fd-4083-99ed-3b5f085e92fa";
+				PROVISIONING_PROFILE_SPECIFIER = com.jooy.JY_dis;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
